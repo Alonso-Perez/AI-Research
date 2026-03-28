@@ -1,0 +1,7 @@
+Ciudad,Latitud,Longitud,Ventas
+Ciudad_A,19.4326,-99.1332,1000  # Centro Histórico (Alcaldía Cuauhtémoc)
+Ciudad_B,19.3574,-99.2577,1500  # Álvaro Obregón
+Ciudad_C,19.5033,-99.1850,2000  # Azcapotzalco
+Ciudad_D,19.3683,-99.0723,2500  # Iztapalapa
+Ciudad_E,19.3553,-99.1638,3000  # Benito Juárez
+

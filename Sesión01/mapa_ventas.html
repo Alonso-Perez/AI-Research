@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e142757d1c1728f811a73cfc7a3c13b6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e142757d1c1728f811a73cfc7a3c13b6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e142757d1c1728f811a73cfc7a3c13b6 = L.map(
+                "map_e142757d1c1728f811a73cfc7a3c13b6",
+                {
+                    center: [19.4326, -99.1332],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_aaabea156715aa3a41fc677dccf6c0ad = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_aaabea156715aa3a41fc677dccf6c0ad.addTo(map_e142757d1c1728f811a73cfc7a3c13b6);
+        
+    
+            var marker_251ee8e8439990b2a1522ae5a6d9834f = L.marker(
+                [19.4326, -99.1332],
+                {
+}
+            ).addTo(map_e142757d1c1728f811a73cfc7a3c13b6);
+        
+    
+        var popup_1cebee2e40230d98b04166139d41c295 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7b79ea628752475dcb53328e0b8c8c30 = $(`<div id="html_7b79ea628752475dcb53328e0b8c8c30" style="width: 100.0%; height: 100.0%;">Ciudad_A ventas: 1000  # Centro Histórico (Alcaldía Cuauhtémoc)</div>`)[0];
+                popup_1cebee2e40230d98b04166139d41c295.setContent(html_7b79ea628752475dcb53328e0b8c8c30);
+            
+        
+
+        marker_251ee8e8439990b2a1522ae5a6d9834f.bindPopup(popup_1cebee2e40230d98b04166139d41c295)
+        ;
+
+        
+    
+    
+            var marker_92535cbefc933735e5935cff949bf550 = L.marker(
+                [19.3574, -99.2577],
+                {
+}
+            ).addTo(map_e142757d1c1728f811a73cfc7a3c13b6);
+        
+    
+        var popup_3600e83e8016e4731a4595573fd591b1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50ab8db0ce94dd61060591aee29b7bc8 = $(`<div id="html_50ab8db0ce94dd61060591aee29b7bc8" style="width: 100.0%; height: 100.0%;">Ciudad_B ventas: 1500  # Álvaro Obregón</div>`)[0];
+                popup_3600e83e8016e4731a4595573fd591b1.setContent(html_50ab8db0ce94dd61060591aee29b7bc8);
+            
+        
+
+        marker_92535cbefc933735e5935cff949bf550.bindPopup(popup_3600e83e8016e4731a4595573fd591b1)
+        ;
+
+        
+    
+    
+            var marker_22b911ef10de1acca64f0252f8b9433d = L.marker(
+                [19.5033, -99.185],
+                {
+}
+            ).addTo(map_e142757d1c1728f811a73cfc7a3c13b6);
+        
+    
+        var popup_499251e8ab1f12814fd9499ac4e77d5c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a481c2ce0d9947242a45f62d6866d7f4 = $(`<div id="html_a481c2ce0d9947242a45f62d6866d7f4" style="width: 100.0%; height: 100.0%;">Ciudad_C ventas: 2000  # Azcapotzalco</div>`)[0];
+                popup_499251e8ab1f12814fd9499ac4e77d5c.setContent(html_a481c2ce0d9947242a45f62d6866d7f4);
+            
+        
+
+        marker_22b911ef10de1acca64f0252f8b9433d.bindPopup(popup_499251e8ab1f12814fd9499ac4e77d5c)
+        ;
+
+        
+    
+    
+            var marker_c876bd24eb4b7e95a76cfc55caa91d8d = L.marker(
+                [19.3683, -99.0723],
+                {
+}
+            ).addTo(map_e142757d1c1728f811a73cfc7a3c13b6);
+        
+    
+        var popup_236e2dcc644bcfe16eb389ef18dfa416 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7733a32b4689ff05eac9b996a5f1a700 = $(`<div id="html_7733a32b4689ff05eac9b996a5f1a700" style="width: 100.0%; height: 100.0%;">Ciudad_D ventas: 2500  # Iztapalapa</div>`)[0];
+                popup_236e2dcc644bcfe16eb389ef18dfa416.setContent(html_7733a32b4689ff05eac9b996a5f1a700);
+            
+        
+
+        marker_c876bd24eb4b7e95a76cfc55caa91d8d.bindPopup(popup_236e2dcc644bcfe16eb389ef18dfa416)
+        ;
+
+        
+    
+    
+            var marker_21d564c0207800470f45d6fc5d19fe3a = L.marker(
+                [19.3553, -99.1638],
+                {
+}
+            ).addTo(map_e142757d1c1728f811a73cfc7a3c13b6);
+        
+    
+        var popup_759ca15e8ad6f284df1e50f31de43797 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_009a38694ce32a919fcc8708db532978 = $(`<div id="html_009a38694ce32a919fcc8708db532978" style="width: 100.0%; height: 100.0%;">Ciudad_E ventas: 3000  # Benito Juárez</div>`)[0];
+                popup_759ca15e8ad6f284df1e50f31de43797.setContent(html_009a38694ce32a919fcc8708db532978);
+            
+        
+
+        marker_21d564c0207800470f45d6fc5d19fe3a.bindPopup(popup_759ca15e8ad6f284df1e50f31de43797)
+        ;
+
+        
+    
+</script>
+</html>
